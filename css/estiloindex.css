@@ -1,0 +1,252 @@
+:root{
+    --main-header-color:linear-gradient(45deg, rgb(192, 20, 20),rgb(228, 85, 85));
+}
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../assets/fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    height: 40px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    line-height: 40px;
+    display: flex;
+    background: var(--main-header-color);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.logo-place{
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.logo-place img{
+    width: 60px;
+    position: fixed;
+    top: 0px;
+}
+
+.search-place{
+    width:calc(100% - 440px);
+    height: 85%;
+    display: flex;
+    padding-right: 50%;
+}
+
+.search-place input{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #801b1b;
+    color: #fefefe;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.search-place input::placeholder{
+    color: rgb(255, 255, 255); 
+}
+
+.btn-main{
+    font-size: 15px;
+    background-color:white;
+    border-style: none;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-search{
+    width: 40px;
+    padding: 7px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+.option-place{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.option-place h4{
+margin: 0;
+color: white;
+
+}
+
+.item-option{
+   padding-right: 10px;
+   line-height: 30px;
+   font-size: 40px;
+   cursor: pointer;
+   color: black;
+   display: flex;
+}
+
+.main-content{
+    margin-top: 60px;
+    width: 100%;    
+}
+
+.content-page{
+    margin: auto;
+    padding: 10px;
+    width: calc(100% - 20px);
+    max-width: 1180px;
+}
+
+.content-page section{
+    display: flex;
+}
+
+.parte1{
+    padding: 5px;
+    width: calc(60% - 10px);
+    box-shadow: 0 0 2px 3px rgb(255, 255, 255);
+}
+.parte2{
+    padding: 10px 0 0 100px;
+    width: calc(40% - 10px);
+    color: white;
+
+}
+
+.parte1 img{
+    width: 100%;
+    
+}
+
+.parte2 *{
+    margin: 10px 0;
+}
+
+.parte2 button{
+    border-style: none;
+    border-radius: 15px;
+    padding:13px 20px;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+}
+button{
+    border-style: none;
+    border-radius: 15px;
+    padding:13px 20px;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+}
+.title-section{
+    padding: 10px 0;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.product-list{
+    display: table;
+    width: 100%;
+    color: white;
+}
+
+.product-box{
+    display: inline-table;
+    padding: 10px;
+    width: calc(100%/4 - 20px);
+}
+
+.product-box a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.product{
+    width: 100%;            
+}
+
+.product img{
+    width: 100%;
+    box-shadow: 0 0 8px 3px rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 250px;
+}
+
+.detail-title{
+    padding-top: 10px;
+}
+.detail-price{
+    font-size: 20px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.body-pedidos{
+    width: 100%;
+}
+.item-pedido{
+    display: flex;
+    border: 1px #ccc solid;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.pedido-img{
+    width: 200px;
+}
+.pedido-img img{
+    width: 100%;
+}
+.pedido-detalle{
+    padding: 10px;
+    width: calc(100% - 220px);
+    background: linear-gradient(45deg, rgb(184, 69, 24),rgb(206, 203, 63));
+    border-radius:10px;
+    color: white;
+}
+
+.pedido-detalle h3,
+.pedido-detalle p{
+    margin: 5px 0;
+}
+
+.content-page h3{
+    color: white;
+}
+.ipt-procom{
+    width: 150px;
+    margin-bottom: 5px;
+    
+}
+
+.compra-box{
+    padding-top: 10px;
+    text-align: center;
+    border-radius:3px ;
+}
+.compra-box input{
+    border-radius: 5px;
+    background-image: url(../assets/fondoproduct.png);
+    color: white;
+
+}
+.compra-box input::placeholder{
+    color: rgb(255, 255, 255); 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btncompra{
+    background: linear-gradient(45deg, rgb(184, 69, 24),rgb(206, 203, 63));
+}
+
